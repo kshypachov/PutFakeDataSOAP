@@ -15,7 +15,7 @@
 Ви можете встановити їх за допомогою наступної команди:
 
 ```bash
-pip install zeep requests faker
+pip install zeep requests Faker
 ```
 
 ## Конфігурація
@@ -26,11 +26,11 @@ pip install zeep requests faker
 
 1. Клонуйте репозиторій або завантажте код.
 ```bash
-git clone 
+git clone https://github.com/kshypachov/soap_web_service_sync.git
 ```
 2. Переконайтеся, що ваш SOAP веб-сервіс запущений.
 
-3. Запустіть клієнтський скрипт:
+3. Запустіть скрипт:
 
 ```bash
 python client.py

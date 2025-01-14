@@ -23,7 +23,7 @@
 Для його запуску на віртуальній машині з розгорнутим та налаштованим вебсервісом необхідно виконати наступні дії:
 
 
-1. Встановити необхідні бібліотеки:
+1. Встановити необхідні бібліотеки та залежності:
 ```bash
 sudo apt install python3-pip
 pip install zeep requests Faker
@@ -31,13 +31,13 @@ pip install zeep requests Faker
 ```
 2. Клонувати репозиторій:
 ```bash
-git clone https://github.com/kshypachov/soap_web_service_sync.git
+git clone https://github.com/MadCat-88/Trembita_PutFakeData_SOAP.git
 ```
 
-3. Клонувати репозиторій:
+3. Перейти в директорію зі скриптом:
 
 ```bash
-cd PutFakeDataSOAP
+cd Trembita_PutFakeData_SOAP
 ```
 
 4. Запустити скрипт:

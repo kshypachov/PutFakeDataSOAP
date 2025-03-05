@@ -23,17 +23,19 @@
 
 
 1. Встановити необхідні бібліотеки та залежності:
+   
 ```bash
 sudo apt install python3-pip
 pip install zeep requests Faker
-
 ```
+
 2. Клонувати репозиторій:
+   
 ```bash
 git clone https://github.com/MadCat-88/Trembita_PutFakeData_SOAP.git
 ```
 
-3. Перейти в директорію зі скриптом:
+3. Перейти до директорію зі скриптом:
 
 ```bash
 cd Trembita_PutFakeData_SOAP

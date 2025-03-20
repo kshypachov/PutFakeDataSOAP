@@ -32,13 +32,13 @@ pip install zeep requests Faker
 2. Клонувати репозиторій:
    
 ```bash
-git clone https://github.com/MadCat-88/Trembita_PutFakeData_SOAP.git
+git clone https://github.com/kshypachov/PutFakeDataSOAP.git
 ```
 
 3. Перейти до директорію зі скриптом:
 
 ```bash
-cd Trembita_PutFakeData_SOAP
+cd PutFakeDataSOAP
 ```
 
 4. Запустити скрипт:
@@ -51,3 +51,5 @@ python3 client.py
 - `wsdl`: URL-адреса, на яку будуть надсилатися дані.
 - `count`: Кількість запитів, які будуть виконані.
 
+##
+Матеріали створено за підтримки проєкту міжнародної технічної допомоги «Підтримка ЄС цифрової трансформації України (DT4UA)».

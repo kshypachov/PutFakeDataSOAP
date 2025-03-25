@@ -41,6 +41,20 @@ git clone https://github.com/kshypachov/PutFakeDataSOAP.git
 cd PutFakeDataSOAP
 ```
 
+Примітка У випадку, якщо вебсервіс розгорнуто в Docker, перед виконанням наступних кроків необхідно встановити віртуальне середовище за допомогою команди:
+
+```bash
+sudo apt install python3.12-venv
+```
+
+А також створити та активувати віртуальне середовище за допомогою команд:
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+
 4. Запустити скрипт:
 ```bash
 python3 client.py

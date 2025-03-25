@@ -26,7 +26,12 @@
    
 ```bash
 sudo apt install python3-pip
-pip install zeep requests Faker
+```
+
+**Примітка** У випадку, якщо вебсервіс розгорнуто в Docker, перед виконанням наступних кроків необхідно встановити віртуальне середовище за допомогою команди:
+
+```bash
+sudo apt install python3.12-venv
 ```
 
 2. Клонувати репозиторій:
@@ -41,10 +46,25 @@ git clone https://github.com/kshypachov/PutFakeDataSOAP.git
 cd PutFakeDataSOAP
 ```
 
-4. Запустити скрипт:
+4. Встановити необхідні бібліотеки та залежності:
+   
+```bash
+pip install zeep requests Faker
+```
+
+5. Cтворити та активувати віртуальне середовище:
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+
+6. Запустити скрипт:
 ```bash
 python3 client.py
 ```
+
 ## Опис змінних у файлі main.py
 
 - `fake`: Об'єкт класу `Faker`, налаштований для використання української локалі.
